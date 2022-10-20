@@ -2,6 +2,45 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+.content-box {
+    padding: 30px;
+    margin:auto;
+    width: 550px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:inset;
+
+}
+
+img {
+    border-radius: 50%;
+    size: 150px 150px;
+    border: 3px solid white;
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+
+  }
+
+body {
+    background-color:#b2bec3;
+    padding:150px;
+}
+
+h1 {
+    color:#d63031;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    color:white;
+    border-radius: 5px;
+}
+
+.facebook {
+    background-color: #3b5998;
+    border-radius: 5px;
+}
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
