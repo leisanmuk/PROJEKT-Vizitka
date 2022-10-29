@@ -3,6 +3,7 @@ html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
 .content-box {
+    
     padding: 30px;
     margin:auto;
     width: 550px;
@@ -16,30 +17,48 @@ img {
     border-radius: 50%;
     size: 150px 150px;
     border: 3px solid white;
-    position: relative;
-    left: 300px;
-    bottom: 100px;
-
   }
 
 body {
+   
     background-color:#b2bec3;
-    padding:150px;
+    padding-top:150px;
 }
 
 h1 {
+    font-family: 'Nunito';
     color:#d63031;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Nunito';
+    font-size: 18px;
 }
 
 .twitter {
     background-color: #1da1f2;
     color:white;
     border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: bold;
+    
 }
 
 .facebook {
     background-color: #3b5998;
     border-radius: 5px;
+    color:white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: bold;
 }
 /*
 BARVY:
