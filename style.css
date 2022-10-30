@@ -17,6 +17,9 @@ img {
     border-radius: 50%;
     size: 150px 150px;
     border: 3px solid white;
+    position: relative;
+    left: 300px;
+    bottom: 180px;  
   }
 
 body {
@@ -46,7 +49,6 @@ p {
     font-family: 'Nunito';
     font-size: 18px;
     font-weight: bold;
-    
 }
 
 .facebook {
@@ -59,6 +61,15 @@ p {
     font-family: 'Nunito';
     font-size: 18px;
     font-weight: bold;
+    text-decoration: none;
+}
+
+a:link {
+text-decoration: none;
+}
+
+a:visited {
+    color: white;
 }
 /*
 BARVY:
